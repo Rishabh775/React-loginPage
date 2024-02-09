@@ -6,7 +6,7 @@ export default function Login() {
         <h1>MY ACCOUNT</h1>
         <hr className=" mx-auto border-neutral-950 w-4/6 mb-14 mt-16" />
       </div>
-      <div className=" flex flex-row items-center justify-center mb-48 ">
+      <div className=" flex flex-row items-center justify-center mb-48 sm:flex-col ">
         <div className="flex  items-center justify-center   mr-20 w-2/6">
           <div className="flex flex-col items-center w-full space-y-8  bg-gray-100 p-10">
             <h1 className="text-4xl font-bold">LOGIN</h1>
