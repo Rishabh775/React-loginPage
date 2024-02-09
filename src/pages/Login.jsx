@@ -63,7 +63,7 @@ export default function Login() {
             <p className="font-bold">
               Become a HUGO BOSS EXPERIENCE member to profit from special offers
             </p>
-            <a href="/REGISTER">
+            <a href="/Register">
               <button className="register w-full p-4 mt-9 text-black font-bold bg-white cursor-pointer  duration-500 hover:scale-105 hover:after:content-['➜']  ">
                 REGISTER
               </button>
