@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Login() {
   return (
     <>
@@ -39,9 +41,9 @@ export default function Login() {
                   LOGIN
                 </button>
               </div>
-              <a href="/FORGOTPASSWORD">
+              <link to="/FORGOTPASSWORD">
                 <p className="text-right text-black">Forgot Password?</p>
-              </a>
+              </link>
             </form>
           </div>
         </div>
@@ -63,11 +65,11 @@ export default function Login() {
             <p className="font-bold">
               Become a HUGO BOSS EXPERIENCE member to profit from special offers
             </p>
-            <a href="/Register">
+            <Link to="/Register">
               <button className="register w-full p-4 mt-9 text-black font-bold bg-white cursor-pointer  duration-500 hover:scale-105 hover:after:content-['➜']  ">
                 REGISTER
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
