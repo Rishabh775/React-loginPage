@@ -1,4 +1,4 @@
-import "./Login.css";
+// import "./Login.css";
 export default function Login() {
   return (
     <>
@@ -35,7 +35,7 @@ export default function Login() {
               <div className="flex  justify-end">
                 <button
                   type="submit"
-                  className="login  ali w-1/2  p-4 text-white bg-black cursor-pointer hover:scale-105  focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="login  ali w-1/2  p-4 text-white bg-black cursor-pointer hover:scale-105   duration-500 hover:after:content-['➜'] "
                 >
                   LOGIN
                 </button>
@@ -65,7 +65,7 @@ export default function Login() {
               Become a HUGO BOSS EXPERIENCE member to profit from special offers
             </p>
             <a href="/REGISTER">
-              <button className="register w-full p-4 mt-9 text-black font-bold bg-white cursor-pointer hover:scale-105 ">
+              <button className="register w-full p-4 mt-9 text-black font-bold bg-white cursor-pointer  duration-500 hover:scale-105 hover:after:content-['➜']  ">
                 REGISTER
               </button>
             </a>
